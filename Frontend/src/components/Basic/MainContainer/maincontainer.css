@@ -1,0 +1,32 @@
+.mainContainer {
+  flex: 10;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  float: right;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/* ========= Media Query(Medium Device, Tablet) ==============*/
+@media screen and (max-width: 1024px) {
+  .mainContainer {
+    width: 86%;
+    flex: 10;
+    margin-top: 20px;
+  }
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    flex: 10;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+}

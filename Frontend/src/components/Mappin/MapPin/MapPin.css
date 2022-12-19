@@ -1,0 +1,85 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  color: slateblue;
+  font-size: 13px;
+  border-bottom: 1px solid slateblue;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: slateblue;
+}
+
+.username {
+  font-style: 14px;
+}
+
+.date {
+  font-style: 14px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid slateblue;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: slateblue;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: slateblue;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.logout {
+  background-color: slateblue;
+}
+
+.login {
+  background-color: slateblue;
+}
+
+.register {
+  background-color: slateblue;
+}
+
+.register {
+  position: absolute;
+  float: left;
+  cursor: pointer;
+}
